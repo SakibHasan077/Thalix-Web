@@ -156,3 +156,29 @@ p,
   -o-border-radius: 5px;
 }
 /* Cart Section End */
+/* Footer Section */
+footer {
+  background-color: #373e49;
+  color: white;
+  height: 60px;
+  display: grid;
+  place-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.footerContainer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerContainer p {
+  font-size: 0.9rem;
+}
+.footerContainer .socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+.footerContainer .socialIcons i {
+  cursor: pointer;
+}
+/* Footer Section end */
