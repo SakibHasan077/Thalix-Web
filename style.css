@@ -47,3 +47,36 @@ main p {
   line-height: 2;
 }
 /* Hero Section End */
+/* Search Bar  */
+.searchBar {
+  margin-top: 0.3rem;
+}
+.searchContainer {
+  width: 41.778rem;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchContainer input {
+  padding: 0.8rem;
+  width: 90%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: 0;
+  border: 1px solid lightgray;
+}
+.searchContainer button {
+  padding: 0.67rem;
+  width: 8%;
+  background-color: #fab234;
+  border: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Search Bar End */
