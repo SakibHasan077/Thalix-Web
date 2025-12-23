@@ -7,3 +7,17 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* Header Section */
+header {
+  min-width: 5.625rem;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+header img {
+  width: 9.375rem;
+  height: auto;
+  padding: 0.6rem;
+}
+/* Header Section End */
